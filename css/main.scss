@@ -1,0 +1,30 @@
+@import 'settings';
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/variables';
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+    background: lightgrey;
+}
+#box1{
+    border: 1px solid $color1;
+    padding: $padding;
+    &:hover{
+        background: $gradient;
+        padding: $paddingHover;
+    }
+    & > h1{
+        color:$color1;
+    }
+}
+
+#box2{
+    border: 1px solid $color2;
+    padding: $padding;
+}
+#box2 > h1{
+    color: darken($color2,10%);
+}
