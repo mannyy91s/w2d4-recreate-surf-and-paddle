@@ -1,151 +1,284 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img {
-  width: 100%; }
+  width: 100%;
+}
+
+header {
+  width: 100vw;
+}
 
 .logo {
-  background: url(../img/surf_logo.jpg);
+  background: linear-gradient(rgba(8, 22, 204, 0.61), rgba(58, 43, 232, 0.71)), url(../img/surf_logo.jpg);
   background-size: cover;
   color: white;
-  font-size: 20px; }
-  .logo h1 {
-    font-size: 50px; }
-  .logo p {
-    font-size: 15px; }
-  .logo .top-left {
-    padding-top: 8px;
-    color: black; }
+  font-size: 20px;
+}
+
+.logo h1 {
+  font-size: 40px;
+}
+
+.logo p {
+  font-size: 15px;
+}
+
+.logo .top-left {
+  padding-top: 8px;
+  color: black;
+}
 
 .logo-left {
   width: 25px;
-  height: 25px; }
+  height: 25px;
+}
 
 .logo_right {
   padding-top: 8px;
-  color: black; }
+  color: black;
+}
+
+.logo_right a {
+  color: black;
+}
 
 .logo_center {
   height: 400px;
-  padding-top: 50px; }
-  .logo_center p {
-    color: black; }
-  .logo_center h1 {
-    font-size: 90px; }
+  padding-top: 50px;
+}
+
+.logo_center p {
+  color: black;
+}
+
+.logo_center h1 {
+  font-size: 70px;
+}
 
 .middle-container .left-section h2 {
-  color: #083452; }
+  color: #083452;
+}
 
 .middle-container .left-section img {
   width: 25px;
-  height: 25px; }
+  height: 25px;
+}
 
 .middle-container .left-section span {
-  opacity: .7; }
+  opacity: .7;
+}
 
 .middle-container .left-section .middle_left_1 .blue {
   color: #0a426d;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .middle-container .left-section .middle_left_2 h3 {
-  color: #106DB3; }
+  color: #106DB3;
+}
+
+.middle-container .left-section button {
+  background-color: #106DB3;
+  opacity: .7;
+  color: white;
+}
+
+.middle-container .left-section button i {
+  background: grey;
+}
 
 .middle-container .right-section .middle_right_1 img {
   width: 80px;
   height: 80px;
-  background-size: contain; }
+  background-size: contain;
+  background: linear-gradient(rgba(8, 22, 204, 0.81), rgba(58, 43, 232, 0.81));
+}
 
 .middle-container .right-section a {
   color: black;
-  opacity: .7; }
+  opacity: .7;
+}
 
 .middle-container .right-section h6 {
-  color: #106DB3; }
+  color: #106DB3;
+}
 
 .middle-container .right-section .middle_right_3 p {
   font-size: 15px;
-  opacity: .5; }
+  opacity: .5;
+}
+
+.middle-container .right-section .middle_right_3 h6 {
+  font-size: 15px;
+}
 
 .middle-container .right-section .middle_right_2 img {
   width: 300px;
   height: 300px;
-  background-size: contain; }
+  background-size: contain;
+}
+
+.middle-container .right-section .middle_right_2 p {
+  opacity: .7;
+}
 
 .bottom-container h1 {
-  color: #083452; }
+  color: #083452;
+  font-size: 50px;
+}
 
 .pics-section {
   display: flex;
-  flex-direction: row; }
-  .pics-section .pic1 {
-    flex: 1;
-    background: url(../img/pic1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px; }
-    .pics-section .pic1 h1 {
-      color: black;
-      padding-top: 200px;
-      font-size: 30px; }
-  .pics-section .pic2 {
-    flex: 1;
-    background: url(../img/pic2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px; }
-    .pics-section .pic2 h1 {
-      color: white;
-      padding-top: 220px;
-      font-size: 30px; }
-  .pics-section .pic3 {
-    flex: 1;
-    background: url(../img/pic3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px; }
-    .pics-section .pic3 h1 {
-      color: black;
-      padding-top: 170px;
-      font-size: 30px; }
-  .pics-section .pic4 {
-    flex: 1;
-    background: url(../img/pic4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px; }
-    .pics-section .pic4 h1 {
-      color: black;
-      padding-top: 220px;
-      font-size: 30px; }
+  flex-direction: row;
+}
+
+.pics-section .pic1 {
+  flex: 1;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.pics-section .pic1:hover {
+  background: linear-gradient(rgba(8, 22, 204, 0.02), rgba(58, 43, 232, 0.02)), url(../img/pic1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pics-section .pic1:hover h1 {
+  color: white;
+}
+
+.pics-section .pic1 h1 {
+  color: black;
+  padding-top: 200px;
+  font-size: 30px;
+}
+
+.pics-section .pic2 {
+  flex: 1;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.pics-section .pic2:hover {
+  background: linear-gradient(rgba(8, 22, 204, 0.02), rgba(58, 43, 232, 0.02)), url(../img/pic2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pics-section .pic2:hover h1 {
+  color: white;
+}
+
+.pics-section .pic2 h1 {
+  color: black;
+  padding-top: 220px;
+  font-size: 30px;
+}
+
+.pics-section .pic3 {
+  flex: 1;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.pics-section .pic3:hover {
+  background: linear-gradient(rgba(8, 22, 204, 0.2), rgba(58, 43, 232, 0.2)), url(../img/pic3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pics-section .pic3:hover h1 {
+  color: white;
+}
+
+.pics-section .pic3 h1 {
+  color: black;
+  padding-top: 170px;
+  font-size: 30px;
+}
+
+.pics-section .pic4 {
+  flex: 1;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.pics-section .pic4:hover {
+  background: linear-gradient(rgba(8, 22, 204, 0.2), rgba(58, 43, 232, 0.2)), url(../img/pic4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pics-section .pic4:hover h1 {
+  color: white;
+}
+
+.pics-section .pic4 h1 {
+  color: black;
+  padding-top: 220px;
+  font-size: 30px;
+}
 
 .bottom-section {
   background: #083452;
   color: white;
   opacity: .7;
   padding: 10px;
-  padding-top: 40px; }
-  .bottom-section li {
-    padding-right: 20px;
-    list-style-type: none;
-    display: inline-block; }
-  .bottom-section .border {
-    border-right: 1px solid black; }
+  padding-top: 40px;
+}
 
-.iron-logo {
-  background: url(../img/iron-yard-logo.svg);
-  background-size: contain;
-  position: relative;
-  left: 80px;
-  bottom: 15px;
+.bottom-section ul {
+  margin: 0;
+}
+
+.bottom-section li {
+  padding-right: 20px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.bottom-section .border {
+  border-right: 1px solid white;
+}
+
+.iron-yard {
   width: 60px;
   height: 60px;
-  float: left;
-  opacity: .7; }
+}
 
-@media screen and (max-width: 500px) {
+.footer-right {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 447px) {
+  .logo_center {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .pics-section {
-    flex-direction: column; } }
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1050px) {
+  .pics-section .pics h1 {
+    font-size: 25px;
+  }
+}
