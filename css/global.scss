@@ -1,3 +1,8 @@
+$color1:#083452;
+$color2:#106DB3;
+
+
+
 *{
     box-sizing: border-box;
 }
@@ -5,7 +10,8 @@ img{
     width: 100%;
 }
 .logo{
-    background: url(../img/main-logo.jpg);
+    background: url(../img/surf_logo.jpg);
+    background-size: cover;
     color: white;
     font-size: 20px;
     h1{
@@ -26,7 +32,6 @@ img{
 .logo_right{
     padding-top: 8px;
     color: black;
-
 }
 .logo_center{
     height: 400px;
@@ -34,27 +39,62 @@ img{
     p{
         color: black;
     }
+    h1{
+        font-size: 90px;
+    }
 }
 .middle-container{
-    width: 920px;
-    display: flex;
-    flex-direction: row;
     .left-section{
-        flex-direction: column;
-        flex: 2;
         h2{
-            color: #083452
+            color: $color1;
+        }
+        img{
+            width:25px;
+            height: 25px;
+        }
+        span{
+            opacity: .7;
+        }
+        .middle_left_1{
+
+            .blue{
+                color: darken(#106DB3, 15%);
+                font-weight: bold;
+            }
+
+        }
+        .middle_left_2 h3{
+            color:$color2;
         }
     }
     .right-section{
-        flex-direction: column;
-        flex: 1;
-    }
-    .middle_right_1 img{
-        border-radius: 15px;
-    }
-    .middle_right_2{
+        .middle_right_1 img{
+            width: 80px;
+            height: 80px;
+            background-size: contain;
+        }
+        a{
+                color: black;
+                opacity: .7;
 
+        }
+        h6{
+            color:$color2;
+        }
+        .middle_right_3 p{
+            font-size: 15px;
+            opacity: .5;
+        }
+        .middle_right_2 img{
+            width: 300px;
+            height: 300px;
+            background-size: contain;
+        }
+    }
+}
+.bottom-container{
+    h1{
+        color: $color1;
     }
 }
 .pics-section{
@@ -62,30 +102,90 @@ img{
     flex-direction: row;
     .pic1{
         flex: 1;
+        background: url(../img/pic1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        h1{
+            color: black;
+            padding-top: 200px;
+            font-size: 30px;
+        }
     }
     .pic2{
         flex: 1;
+        background: url(../img/pic2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        h1{
+            color: white;
+            padding-top: 220px;
+            font-size: 30px;
+        }
     }
     .pic3{
         flex: 1;
+        background: url(../img/pic3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        h1{
+            color: black;
+            padding-top: 170px;
+            font-size: 30px;
+
+        }
     }
     .pic4{
         flex: 1;
+        background: url(../img/pic4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+        h1{
+            color: black;
+            padding-top: 220px;
+            font-size: 30px;
+
+        }
     }
 }
 .bottom-section{
-    display: flex;
-    flex-direction: row;
-    background: #083452;
+    background: $color1;
     color: white;
-    opacity: .8;
-    padding: 20px;
-    ul{
-        display: flex;
-    }
+    opacity: .7;
+    padding: 10px;
+    padding-top: 40px;
+
     li{
         padding-right: 20px;
         list-style-type: none;
+        display: inline-block;
     }
+    .border{
+        border-right:1px solid black;
+    }
+}
 
+.iron-logo{
+    background: url(../img/iron-yard-logo.svg);
+    background-size: contain;
+    position: relative;
+    left:80px;
+    bottom:15px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    opacity: .7;
+}
+
+@media screen and (max-width:500px){
+    .pics-section{
+        flex-direction: column;
+    }
 }
