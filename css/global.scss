@@ -10,7 +10,7 @@ header{
     width: 100vw;
 }
 .logo{
-    background:linear-gradient(rgba(8, 22, 204, 0.61),rgba(58, 43, 232,.71)), url(../img/surf_logo.jpg);
+    background:linear-gradient(rgba(8, 22, 204, 0.41),rgba(58, 43, 232,.41)), url(../img/surf_logo.jpg);
     background-size: cover;
     color: white;
     font-size: 20px;
@@ -34,6 +34,7 @@ header{
     color: black;
     a{
         color: black;
+        padding-right: 8px;
     }
 }
 .logo_center{
@@ -48,6 +49,7 @@ header{
 }
 .middle-container{
     .left-section{
+        padding:0 80px;
         h2{
             color: $color1;
         }
@@ -63,21 +65,39 @@ header{
                 color: darken(#106DB3, 15%);
                 font-weight: bold;
             }
+            h2{
+                font-size: 50px;
+            }
         }
         .middle_left_2 h3{
             color:$color2;
+            border-left: 1px solid grey;
+            padding-left: 15px;
+            font-size: 35px;
         }
-        button{
-            background-color: $color2;
-            opacity: .7;
-            color: white;
-            i{
-                background: grey;
-                // color: white;
+        .buttons{
+                display: inline-block;
+                background: #A3b3bf;
+                color: white;
+                div{
+                    display: inline-block;
+                    padding: 8px;
+                }
+            div:first-child{
+                background: #5e686f;
+                color: white;
+                padding: 8px;
+            }
+            &.btn-third{
+                background: $color2;
+                div:first-child{
+                    background: $color1;
+                }
             }
         }
     }
     .right-section{
+        padding: 20px;
         .middle_right_1 img{
             width: 80px;
             height: 80px;
@@ -86,7 +106,8 @@ header{
         }
         a{
                 color: black;
-                opacity: .7;
+                opacity: .6;
+                padding-right: 7px;
         }
         h6{
             color:$color2;
@@ -102,7 +123,7 @@ header{
         }
         .middle_right_2 {
         img{
-            width: 300px;
+            width: 360px;
             height: 300px;
             background-size: contain;
         }
@@ -113,7 +134,6 @@ header{
     }
 }
 .bottom-container{
-    // width: 80vw;
     h1{
         color: $color1;
         font-size: 50px;
@@ -122,92 +142,54 @@ header{
 .pics-section{
     display: flex;
     flex-direction: row;
-    .pic1{
+    .pics{
         flex: 1;
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic1.jpg);
+        width: 25vw;
+        height: 25vw;
         background-size: cover;
-        background-repeat: no-repeat;
-        width: 300px;
-        height: 300px;
+        display: flex;
+        align-items: flex-end;
+        padding: 10px;
+        h1{
+            font-size: 2vw;
+            color: black;
+            flex: 1;
+        }
+    }
+    .pic1{
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic1.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.02),rgba(58,43,232,.02)), url(../img/pic1.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic1.jpg) center / cover;
             h1{
                 color: white;
             }
         }
-        h1{
-            color: black;
-            padding-top: 200px;
-            font-size: 30px;
-        }
-
     }
     .pic2{
-        flex: 1;
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 300px;
-        height: 300px;
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic2.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.02),rgba(58,43,232,.02)), url(../img/pic2.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic2.jpg) center / cover;
             h1{
                 color: white;
             }
-        }
-        h1{
-            color: black;
-            padding-top: 220px;
-            font-size: 30px;
         }
     }
     .pic3{
-        flex: 1;
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic3.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 300px;
-        height: 300px;
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic3.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.2),rgba(58,43,232,.2)), url(../img/pic3.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic3.jpg) center / cover;
             h1{
                 color: white;
             }
-        }
-        h1{
-            color: black;
-            padding-top: 170px;
-            font-size: 30px;
         }
     }
     .pic4{
-        flex: 1;
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic4.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 300px;
-        height: 300px;
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic4.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.2),rgba(58,43,232,.2)), url(../img/pic4.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic4.jpg) center / cover;
             h1{
                 color: white;
             }
-        }
-        h1{
-            color: black;
-            padding-top: 220px;
-            font-size: 30px;
         }
     }
 }
@@ -237,21 +219,11 @@ header{
 .footer-right{
     padding-top: 20px;
 }
-@media screen and (max-width:447px){
-    .logo_center{
-        padding-top: 20px;
-    }
-}
 @media screen and (max-width:550px){
     .pics-section{
         flex-direction: column;
+        .pics{
+            width: 100vw;
+        }
     }
-}
-@media screen and (min-width:551px) and (max-width:1050px){
-    .pics-section{
-        .pics h1{
-           font-size: 25px;
-       }
-    }
-
 }

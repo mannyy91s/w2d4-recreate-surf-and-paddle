@@ -11,7 +11,7 @@ header {
 }
 
 .logo {
-  background: linear-gradient(rgba(8, 22, 204, 0.61), rgba(58, 43, 232, 0.71)), url(../img/surf_logo.jpg);
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/surf_logo.jpg);
   background-size: cover;
   color: white;
   font-size: 20px;
@@ -42,6 +42,7 @@ header {
 
 .logo_right a {
   color: black;
+  padding-right: 8px;
 }
 
 .logo_center {
@@ -55,6 +56,10 @@ header {
 
 .logo_center h1 {
   font-size: 70px;
+}
+
+.middle-container .left-section {
+  padding: 0 80px;
 }
 
 .middle-container .left-section h2 {
@@ -75,18 +80,44 @@ header {
   font-weight: bold;
 }
 
-.middle-container .left-section .middle_left_2 h3 {
-  color: #106DB3;
+.middle-container .left-section .middle_left_1 h2 {
+  font-size: 50px;
 }
 
-.middle-container .left-section button {
-  background-color: #106DB3;
-  opacity: .7;
+.middle-container .left-section .middle_left_2 h3 {
+  color: #106DB3;
+  border-left: 1px solid grey;
+  padding-left: 15px;
+  font-size: 35px;
+}
+
+.middle-container .left-section .buttons {
+  display: inline-block;
+  background: #A3b3bf;
   color: white;
 }
 
-.middle-container .left-section button i {
-  background: grey;
+.middle-container .left-section .buttons div {
+  display: inline-block;
+  padding: 8px;
+}
+
+.middle-container .left-section .buttons div:first-child {
+  background: #5e686f;
+  color: white;
+  padding: 8px;
+}
+
+.middle-container .left-section .buttons.btn-third {
+  background: #106DB3;
+}
+
+.middle-container .left-section .buttons.btn-third div:first-child {
+  background: #083452;
+}
+
+.middle-container .right-section {
+  padding: 20px;
 }
 
 .middle-container .right-section .middle_right_1 img {
@@ -98,7 +129,8 @@ header {
 
 .middle-container .right-section a {
   color: black;
-  opacity: .7;
+  opacity: .6;
+  padding-right: 7px;
 }
 
 .middle-container .right-section h6 {
@@ -115,7 +147,7 @@ header {
 }
 
 .middle-container .right-section .middle_right_2 img {
-  width: 300px;
+  width: 360px;
   height: 300px;
   background-size: contain;
 }
@@ -134,104 +166,68 @@ header {
   flex-direction: row;
 }
 
-.pics-section .pic1 {
+.pics-section .pics {
   flex: 1;
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic1.jpg);
+  width: 25vw;
+  height: 25vw;
   background-size: cover;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.pics-section .pics h1 {
+  font-size: 2vw;
+  color: black;
+  flex: 1;
+}
+
+.pics-section .pic1 {
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic1.jpg) center/cover;
 }
 
 .pics-section .pic1:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.02), rgba(58, 43, 232, 0.02)), url(../img/pic1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic1.jpg) center/cover;
 }
 
 .pics-section .pic1:hover h1 {
   color: white;
 }
 
-.pics-section .pic1 h1 {
-  color: black;
-  padding-top: 200px;
-  font-size: 30px;
-}
-
 .pics-section .pic2 {
-  flex: 1;
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic2.jpg) center/cover;
 }
 
 .pics-section .pic2:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.02), rgba(58, 43, 232, 0.02)), url(../img/pic2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic2.jpg) center/cover;
 }
 
 .pics-section .pic2:hover h1 {
   color: white;
 }
 
-.pics-section .pic2 h1 {
-  color: black;
-  padding-top: 220px;
-  font-size: 30px;
-}
-
 .pics-section .pic3 {
-  flex: 1;
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic3.jpg) center/cover;
 }
 
 .pics-section .pic3:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.2), rgba(58, 43, 232, 0.2)), url(../img/pic3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic3.jpg) center/cover;
 }
 
 .pics-section .pic3:hover h1 {
   color: white;
 }
 
-.pics-section .pic3 h1 {
-  color: black;
-  padding-top: 170px;
-  font-size: 30px;
-}
-
 .pics-section .pic4 {
-  flex: 1;
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic4.jpg) center/cover;
 }
 
 .pics-section .pic4:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.2), rgba(58, 43, 232, 0.2)), url(../img/pic4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic4.jpg) center/cover;
 }
 
 .pics-section .pic4:hover h1 {
   color: white;
-}
-
-.pics-section .pic4 h1 {
-  color: black;
-  padding-top: 220px;
-  font-size: 30px;
 }
 
 .bottom-section {
@@ -265,20 +261,11 @@ header {
   padding-top: 20px;
 }
 
-@media screen and (max-width: 447px) {
-  .logo_center {
-    padding-top: 20px;
-  }
-}
-
 @media screen and (max-width: 550px) {
   .pics-section {
     flex-direction: column;
   }
-}
-
-@media screen and (min-width: 551px) and (max-width: 1050px) {
-  .pics-section .pics h1 {
-    font-size: 25px;
+  .pics-section .pics {
+    width: 100vw;
   }
 }
