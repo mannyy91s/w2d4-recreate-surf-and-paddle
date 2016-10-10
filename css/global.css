@@ -11,7 +11,7 @@ header {
 }
 
 .logo {
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(/img/surf_logo.jpg);
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/surf_logo.jpg);
   background-size: cover;
   color: white;
   font-size: 20px;
@@ -183,11 +183,11 @@ header {
 }
 
 .pics-section .pic1 {
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(/img/pic1.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic1.jpg) center/cover;
 }
 
 .pics-section .pic1:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(/img/pic1.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic1.jpg) center/cover;
 }
 
 .pics-section .pic1:hover h1 {
@@ -195,11 +195,11 @@ header {
 }
 
 .pics-section .pic2 {
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(/img/pic2.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic2.jpg) center/cover;
 }
 
 .pics-section .pic2:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(/img/pic2.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic2.jpg) center/cover;
 }
 
 .pics-section .pic2:hover h1 {
@@ -207,11 +207,11 @@ header {
 }
 
 .pics-section .pic3 {
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(/img/pic3.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic3.jpg) center/cover;
 }
 
 .pics-section .pic3:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(/img/pic3.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic3.jpg) center/cover;
 }
 
 .pics-section .pic3:hover h1 {
@@ -219,11 +219,11 @@ header {
 }
 
 .pics-section .pic4 {
-  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(/img/pic4.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.41), rgba(58, 43, 232, 0.41)), url(../img/pic4.jpg) center/cover;
 }
 
 .pics-section .pic4:hover {
-  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(/img/pic4.jpg) center/cover;
+  background: linear-gradient(rgba(8, 22, 204, 0.01), rgba(58, 43, 232, 0.01)), url(../img/pic4.jpg) center/cover;
 }
 
 .pics-section .pic4:hover h1 {
