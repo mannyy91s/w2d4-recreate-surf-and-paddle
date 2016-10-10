@@ -10,7 +10,7 @@ header{
     width: 100vw;
 }
 .logo{
-    background:linear-gradient(rgba(8, 22, 204, 0.41),rgba(58, 43, 232,.41)), url(../img/surf_logo.jpg);
+    background:linear-gradient(rgba(8, 22, 204, 0.41),rgba(58, 43, 232,.41)), url(/img/surf_logo.jpg);
     background-size: cover;
     color: white;
     font-size: 20px;
@@ -157,36 +157,36 @@ header{
         }
     }
     .pic1{
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic1.jpg) center / cover;
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(/img/pic1.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic1.jpg) center / cover;
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(/img/pic1.jpg) center / cover;
             h1{
                 color: white;
             }
         }
     }
     .pic2{
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic2.jpg) center / cover;
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(/img/pic2.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic2.jpg) center / cover;
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(/img/pic2.jpg) center / cover;
             h1{
                 color: white;
             }
         }
     }
     .pic3{
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic3.jpg) center / cover;
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(/img/pic3.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic3.jpg) center / cover;
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(/img/pic3.jpg) center / cover;
             h1{
                 color: white;
             }
         }
     }
     .pic4{
-        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(../img/pic4.jpg) center / cover;
+        background:linear-gradient(rgba(8,22,204,0.41),rgba(58,43,232,.41)), url(/img/pic4.jpg) center / cover;
         &:hover{
-            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(../img/pic4.jpg) center / cover;
+            background:linear-gradient(rgba(8,22,204,0.01),rgba(58,43,232,.01)), url(/img/pic4.jpg) center / cover;
             h1{
                 color: white;
             }
